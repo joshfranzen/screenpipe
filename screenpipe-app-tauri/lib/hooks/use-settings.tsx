@@ -95,6 +95,7 @@ const defaultSettings: Settings = {
     enabled: false,
     model: "llama3.2:1b-instruct-q4_K_M",
     port: 11438,
+    type: "ollama-native",
   },
   enableBeta: false,
   showScreenpipeShortcut: "Super+Alt+S",
@@ -214,6 +215,7 @@ export function useSettings() {
           enabled: false,
           model: "llama3.2:1b-instruct-q4_K_M",
           port: 11438,
+          type: "ollama-native",
         };
 
         const savedLanguages =
